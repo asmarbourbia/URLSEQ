@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sequence>
+<sequenceDiagram>
   <actors>
-    <actor name="vv"/>
+    <actor name="Client" type="object"/>
+    <actor name="Respo" type="object"/>
   </actors>
   <messages>
-    <message sender="ds" receiver="d">ssss</message>
+    <message sender="Client" receiver="Respo" text="demande()" type="sync"/>
   </messages>
-</sequence>
+</sequenceDiagram>
